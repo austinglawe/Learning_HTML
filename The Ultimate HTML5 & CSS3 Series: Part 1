@@ -281,8 +281,39 @@ ____________________________________________________________________________
 </body>
 </html>
 ____________________________________________________________________________
+3.10 (Containers)
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .product {
+            background-color: gold;
+        }
+        .highlight{
+            background-color: gold;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="product">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <a href="#">Link</a>
+    </div>
+    <p><div class="highlight">Lorem</div> ipsum dolor, sit amet consectetur adipisicing elit. Fuga tenetur modi perferendis beatae, asperiores commodi temporibus dicta, nemo, accusamus incidunt consequatur. Itaque officia, fuga tenetur vel beatae accusamus amet in.</p>
+    <p>
+        <span class="highlight">Lorem</span> ipsum dolor, sit amet consectetur adipisicing elit. Fuga tenetur modi perferendis beatae, asperiores commodi temporibus dicta, nemo, accusamus incidunt consequatur. Itaque officia, fuga tenetur vel beatae accusamus amet in.
+    </p>
+</body>
+</html>
 ____________________________________________________________________________
+3.11 (Semantic Elements)
+
 
 ____________________________________________________________________________
 
