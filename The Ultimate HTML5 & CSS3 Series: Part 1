@@ -393,8 +393,36 @@ ____________________________________________________________________________
 </body>
 </html>
 ____________________________________________________________________________
-
+4.2 (Providing CSS)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <style>
+        p {
+            color: black;
+        }
+        
+        #first {
+            color: green;
+            font-weight: bold;
+            
+        }
+    </style>
+</head>
+<body>
+    <p id="first">Lorem ipsum dolor sit amet.</p>
+    <p style="color: blue; font-weight: bold">Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+</body>
+</html>
 ____________________________________________________________________________
+4.3 (Normalizing CSS)
+
 
 ____________________________________________________________________________
 
