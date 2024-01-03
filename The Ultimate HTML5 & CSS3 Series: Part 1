@@ -95,7 +95,21 @@ ____________________________________________________________________________
 </body>
 </html>
 ____________________________________________________________________________
+3.4 (Entities)
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>I love to teach you &prime;HTML&gt;! &copy;</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab enim doloribus vel quae. Doloribus, consectetur ipsam! Est inventore neque repellendus a voluptatum esse ex molestiae quae, eos&nbsp;cum, totam, cumque voluptatibus dolorem non nostrum! Incidunt ad, nihil molestias sit nulla eaque ullam sint, dolore fugiat porro sequi quae cum maiores.</p>
+</body>
+</html>
 ____________________________________________________________________________
 
 ____________________________________________________________________________
