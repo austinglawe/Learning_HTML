@@ -1,0 +1,14 @@
+2.5 (HTML BASICS)
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first Web Page</title>
+    </head>
+    <body>
+        <img src="images/mosh.jpg">
+        <p>@moshhamdani</p>
+        <p>I love to teach you HTML!</p>
+    </body>
+</html>
+
