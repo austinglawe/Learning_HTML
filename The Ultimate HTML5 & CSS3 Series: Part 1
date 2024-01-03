@@ -441,6 +441,64 @@ ____________________________________________________________________________
 ____________________________________________________________________________
 4.4 (Basic Selectors)
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+    <section id="products">Hello!</section>
+    <article class="product">Click</article>
+    <article class="product">The Links Below</article>
+    <article class="product">\/\/\/</article>
+    <a href="https://bing.com" target="_top">Bing</a>
+    <a href="https://google.com" target="_blank">Google</a>
+    <a href="https://yahoo.com" target="_blank">Yahoo</a>
+</body>
+</html>
+
+------Styles------
+body {
+    margin: 10px;
+}
+
+
+p {
+    color: orange;
+}
+
+#products {
+    color: purple;
+}
+
+.product {
+    color: salmon;
+}
+
+a [target] {
+    color: red;
+}
+
+a [target="_blank"] {
+    color: blue;
+}
+
+a [href="https://yahoo.com"] {
+    color: brown;
+}
+
+a [href*="google"] {
+    color: yellow;
+}
+
+a [href^="https"][href$=".com"] {
+    color: black;
+}
 ____________________________________________________________________________
 
 ____________________________________________________________________________
