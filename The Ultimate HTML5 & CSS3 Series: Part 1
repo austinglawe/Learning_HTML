@@ -2,7 +2,7 @@ validator.w3.org
 https://jigsaw.w3.org/css-validator/
 https://html.spec.whatwg.org/multipage/named-characters.html
 unsplash.com
-
+sketch.com
 ____________________________________________________________________________
 2.5 (HTML BASICS)
 
@@ -139,8 +139,30 @@ ____________________________________________________________________________
 </body>
 </html>
 ____________________________________________________________________________
+3.6 (Images)
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="images/coffee.jpg" alt="A coffee mug on a table">
+</body>
+</html>
 ____________________________________________________________________________
+3.7 (Videos and Audio)
+
 
 ____________________________________________________________________________
 
